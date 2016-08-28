@@ -21,11 +21,11 @@ namespace HelloMvb.App.Wpf
     /// </summary>
     public partial class MainWindow : Window
     {
-        private HelloWorldModelBinder _binder;
+        private readonly HelloWorldModelBinder _binder;
 
         public MainWindow()
         {
-            InitializeComponent();
+            this.InitializeComponent();
             this._binder = new HelloWorldModelBinder();
             this.InitBinderActions();
         }
