@@ -20,7 +20,7 @@ namespace HelloMvb.ModelBinders
 
         public void SayHelloto(string name)
         {
-            this.HelloWorker(name).ConfigureAwait(false);
+            Task.Run(() => { this.HelloWorker(name).ConfigureAwait(false); }).ConfigureAwait(false); 
         }
 
         private async Task HelloWorker(string name)
