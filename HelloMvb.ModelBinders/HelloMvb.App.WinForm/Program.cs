@@ -14,7 +14,9 @@ namespace HelloMvb.App.WinForm
         [STAThread]
         static void Main()
         {
+            //Nullinit here => no platform specific Init for WinForm
             Mvb.Core.Mvb.NullInit();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
