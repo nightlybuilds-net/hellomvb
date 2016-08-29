@@ -41,6 +41,16 @@ namespace HelloMvb.App.Wpf
             {
                 this.OutPut.Text = this._binder.OutPut;
             });
+
+            this._binder.SayHelloDone.AddAction(() =>
+            {
+                MessageBox.Show("The SayHello method is done!");
+            });
+
+            this._binder.OnValidationError.AddAction(exception =>
+            {
+                this.OutPut.Text = exception.Message;
+            });
         }
     }
 }

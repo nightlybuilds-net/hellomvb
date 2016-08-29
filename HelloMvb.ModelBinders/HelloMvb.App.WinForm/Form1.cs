@@ -14,7 +14,7 @@ namespace HelloMvb.App.WinForm
 {
     public partial class Form1 : Form
     {
-        private HelloWorldModelBinder _binder;
+        private readonly HelloWorldModelBinder _binder;
 
         public Form1()
         {
