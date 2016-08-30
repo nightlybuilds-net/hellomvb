@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mvb.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Mvb.Core.0.0.8\lib\portable-net45+win8+wp8+MonoTouch10+MonoAndroid10+wpa81+Xamarin.iOS10+UAP10\Mvb.Core.dll</HintPath>
+      <HintPath>..\packages\Mvb.Core.0.1.1\lib\portable-net45+win8+wp8+MonoTouch10+MonoAndroid10+wpa81+Xamarin.iOS10+UAP10+Xamarin.Mac2\Mvb.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
