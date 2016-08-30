@@ -42,6 +42,16 @@ namespace HellpMvb.App.Droid
             {
                 this._outPutText.Text = this._binder.OutPut;
             });
+
+            this._binder.SayHelloDone.AddAction(() =>
+            {
+                Toast.MakeText(this.ApplicationContext, "The SayHello method is done!", ToastLength.Long).Show();
+            });
+
+            this._binder.OnValidationError.AddAction(exception =>
+            {
+                this._outPutText.Text = exception.Message;
+            });
         }
     }
 }
