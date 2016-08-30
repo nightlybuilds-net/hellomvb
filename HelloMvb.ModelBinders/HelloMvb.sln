@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMvb.App.Wpf", "HelloMv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMvb.App.WinForm", "HelloMvb.App.WinForm\HelloMvb.App.WinForm.csproj", "{C82FAE51-74E8-4D1D-B04A-BC95645204D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HellpMvb.App.Droid", "HellpMvb.App.Droid\HellpMvb.App.Droid.csproj", "{05793EEF-263D-49EC-B615-3F738B73D63D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,12 @@ Global
 		{C82FAE51-74E8-4D1D-B04A-BC95645204D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C82FAE51-74E8-4D1D-B04A-BC95645204D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C82FAE51-74E8-4D1D-B04A-BC95645204D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05793EEF-263D-49EC-B615-3F738B73D63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05793EEF-263D-49EC-B615-3F738B73D63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05793EEF-263D-49EC-B615-3F738B73D63D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{05793EEF-263D-49EC-B615-3F738B73D63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05793EEF-263D-49EC-B615-3F738B73D63D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05793EEF-263D-49EC-B615-3F738B73D63D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
