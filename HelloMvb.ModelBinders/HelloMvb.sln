@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMvb.ModelBinders", "He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMvb.App.Wpf", "HelloMvb.App.Wpf\HelloMvb.App.Wpf.csproj", "{BCD1430F-D416-4F49-ABBD-91B1EDDB4377}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMvb.App.Console", "HelloMvb.App.Console\HelloMvb.App.Console.csproj", "{11FCAE81-D36C-4DD0-ACA3-1EE3A1C76C69}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMvb.App.WinForm", "HelloMvb.App.WinForm\HelloMvb.App.WinForm.csproj", "{C82FAE51-74E8-4D1D-B04A-BC95645204D9}"
 EndProject
 Global
@@ -25,10 +23,6 @@ Global
 		{BCD1430F-D416-4F49-ABBD-91B1EDDB4377}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCD1430F-D416-4F49-ABBD-91B1EDDB4377}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCD1430F-D416-4F49-ABBD-91B1EDDB4377}.Release|Any CPU.Build.0 = Release|Any CPU
-		{11FCAE81-D36C-4DD0-ACA3-1EE3A1C76C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{11FCAE81-D36C-4DD0-ACA3-1EE3A1C76C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{11FCAE81-D36C-4DD0-ACA3-1EE3A1C76C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{11FCAE81-D36C-4DD0-ACA3-1EE3A1C76C69}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C82FAE51-74E8-4D1D-B04A-BC95645204D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C82FAE51-74E8-4D1D-B04A-BC95645204D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C82FAE51-74E8-4D1D-B04A-BC95645204D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
